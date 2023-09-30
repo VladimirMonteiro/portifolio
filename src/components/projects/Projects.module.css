@@ -1,0 +1,55 @@
+.header_projects{
+    text-align: center;
+    margin-top: 3em;
+
+}
+
+.header_projects h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: .1em;
+    text-transform: uppercase;
+}
+
+.header_projects p{
+    font-size: 19px;
+}
+
+.container{
+    width: 100%;
+}
+
+.projects_container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.card_container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.project_card{
+    background-color: white;
+    min-width: 300px;
+    height: 300px;
+    margin: 1.5em;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 938px) {
+
+    .projects_container{
+        justify-content: center;
+    }
+
+    
+}
+

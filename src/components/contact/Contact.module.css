@@ -1,0 +1,126 @@
+.contact_container{
+    min-width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+   
+  
+}
+
+.form_container{
+    width: 55%;
+    padding: 30px;
+}
+.form_container span{
+    padding: 5px;
+    border-bottom: 3px solid #0078FF;
+}
+
+.form_container form {
+    margin: 50px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.form_container form input{
+    width: 100%;
+    margin-bottom: 18px;
+    height: 45px;
+    padding: 7px;
+  
+   
+}
+
+.form_container form input:focus, textarea:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid  #0078FF;
+    border-top: 1px solid  #0078FF;
+    border-left: 1px solid  #0078FF;
+    border-right: 1px solid  #0078FF;
+  
+  
+}
+
+.form_container form input::placeholder{
+    color: black;
+}
+
+textarea{
+    padding: 7px;
+    height: 45px;
+    max-height: 100px;
+    resize: vertical;
+}
+
+.error_input{
+    border-color: red;
+    color: red;
+    font-size: 15px;
+   
+  
+}
+
+.input_margin{
+    margin-bottom: 0;
+}
+
+.form_container form input[type = submit]{
+ 
+    width: 200px;
+    margin: 2em auto;
+    background-color: #0078FF;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+.form_container form input[type = submit]:hover{
+    background-color: #0077ffb6;
+}
+
+.contact_details{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    border-radius: 7px;
+    width: 500px;
+    height: 400px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 930px) {
+
+    .contact_container{
+       flex-wrap: wrap;
+
+      
+    }
+
+    .form_container{
+        width: 100%;
+    }
+
+    .contact_details{
+        width: 100%;
+    }
+    .image{
+        display: none;
+     
+       
+    }
+
+    
+
+
+    
+}
+

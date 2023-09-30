@@ -1,0 +1,114 @@
+.about_container{
+    width: 100%;
+    background-color: #F5F5F5;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2%;
+}
+
+.about_details{
+    display: flex;
+    flex-wrap: wrap;
+    min-width:60%;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 0 2%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.about_contact{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+.about_image{
+
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.about_contact ul{
+
+    padding: 20px;
+    margin-top: 5px;
+  
+   
+}
+.about_contact ul li {
+    font-weight: lighter;
+    list-style: none;
+}
+.about_contact ul li span{
+
+    font-weight: bold;
+}
+
+.redes ul{
+    display: flex;
+}
+
+.redes ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.redes ul li:hover, .redes ul li a:hover{
+    color: #0078FF;
+}
+
+.redes ul li {
+    font-size: 23px;
+    margin-right: 1em;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+.about_text{
+    width: 50%;
+    padding: 20px;
+}
+.about_text h2{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1em;
+    font-size: 30px;
+ 
+}
+
+.about_text h2 span{
+    border-bottom: 3px solid #0078FF;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    .about_contact{
+        width: 100%;
+     
+    }
+    .about_image{
+
+       margin-top: 50px;
+    
+    }
+
+    .about_text{
+        margin: 0 auto;
+        width: 100%;
+        text-align: left;
+    }
+    
+}
+

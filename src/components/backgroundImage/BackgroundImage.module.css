@@ -1,0 +1,23 @@
+
+
+.overlay{
+    position: absolute;
+    width: 100%;
+
+    background-color: #2072c983; /* Cor de fundo semi-transparente (aqui é preto com 50% de opacidade) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.image_container{
+    width: 100%;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}

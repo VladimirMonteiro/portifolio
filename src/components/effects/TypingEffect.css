@@ -1,0 +1,37 @@
+.typing-effect {
+  font-size: 29px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.typing-cursor {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+.border-visible {
+  border-right: 2px solid white; /* Adiciona a borda direita após cada dígito */
+}
+
+@media screen and (max-width: 630px) {
+
+  .typing-effect {
+    font-size: 22px;
+    
+  }
+  
+  
+}
