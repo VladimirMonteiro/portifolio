@@ -1,4 +1,4 @@
-import style from './backgroundImage.module.css'
+import style from './BackgroundImage.module.css'
 
 
 
