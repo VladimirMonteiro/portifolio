@@ -70,12 +70,12 @@ const Contact = ()=> {
                         
                     </div>
                     <div>
-                        {error.email && <span className={styles.error_input}>{error.email}</span>}
+                        {error.email && <p className={styles.error_input}>{error.email}</p>}
                         <input type="email" name="email" id="email" placeholder='Your e-mail' onChange={handleChange} value={contact.email}/>
                       
                     </div>
                     <div>
-                        {error.subject && <span className={styles.error_input}>{error.subject}</span>}
+                        {error.subject && <p className={styles.error_input}>{error.subject}</p>}
                         <input type="text" name="subject" id="subject" placeholder='Subject' onChange={handleChange} value={contact.subject} />
                        
                     </div>
