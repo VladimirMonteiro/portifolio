@@ -24,6 +24,10 @@
     margin-right: 30px;
     text-transform: uppercase;
 }
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
 
 
 .navbar span {

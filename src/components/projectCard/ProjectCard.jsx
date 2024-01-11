@@ -1,18 +1,16 @@
 import styles from './ProjectCard.module.css'
 
+import { Link } from 'react-router-dom'
+
 const ProjectCard = ({image, projectName, done}) => {
 
     return(
         <div className={done ? styles.project_card : styles.project_card_false}>
             {done ? (
                 <>
-                <div style={{backgroundImage: `url(${image})`}}>
-                    
-                </div>
-                <div>
-                    <h2>{projectName}</h2>
-                </div>
-                
+                <Link to={`/projetos/${projectName}`}>
+                    <div className={styles.image} style={{backgroundImage: `url(${image})`}}></div>
+                </Link>
                 
                 </>
 
