@@ -16,8 +16,8 @@ const Technologies = ()=> {
     return(
         <section id='technologies' className={styles.cardlist_container}>
             <div className={styles.header_container}>
-                <h2>Technologies</h2>
-                <p>skills in the following technologies</p>
+                <h2>Tecnologias</h2>
+                <p>habilidades nas seguintes tecnologias</p>
             </div>
             
            <div className={styles.card_container}>

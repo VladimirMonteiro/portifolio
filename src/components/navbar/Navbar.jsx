@@ -63,18 +63,18 @@ const Navbar = () => {
                                 <nav>
                                     <ul>
                                         {location.pathname.includes('projetos') ? (<li><span>
-                                        <Link to='/' >Home</Link>
+                                        <Link to='/' onClick={handleOnClick} >Home</Link>
                                         </span></li>) : (<li><span><LinkScroll  onClick={handleOnClick} activeClass="active" to="container_01" spy={true} smooth={true} offset={-70} duration={500}>Home</LinkScroll></span></li>)}
 
-                                        {location.pathname.includes('projetos') ? (<li><span><Link to='/'>Sobre</Link></span></li>) : (<li><span><LinkScroll  onClick={handleOnClick}activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>Sobre</LinkScroll></span></li>)}
+                                        {location.pathname.includes('projetos') ? (<li><span><Link onClick={handleOnClick} to='/'>Sobre</Link></span></li>) : (<li><span><LinkScroll  onClick={handleOnClick}activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>Sobre</LinkScroll></span></li>)}
 
-                                        {location.pathname.includes('projetos') ? (<li><span><Link to='/'>Tecnologias</Link></span></li>) : (<li><span><LinkScroll onClick={handleOnClick}activeClass="active" to="technologies" spy={true} smooth={true} offset={-70} duration={500}>Tecnologias</LinkScroll></span></li>)}
+                                        {location.pathname.includes('projetos') ? (<li><span><Link onClick={handleOnClick} to='/'>Tecnologias</Link></span></li>) : (<li><span><LinkScroll onClick={handleOnClick}activeClass="active" to="technologies" spy={true} smooth={true} offset={-70} duration={500}>Tecnologias</LinkScroll></span></li>)}
 
-                                        {location.pathname.includes('projetos') ? (<li><span><Link to='/'>Projetos</Link></span></li>) : (<li><span><LinkScroll  onClick={handleOnClick}activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projetos</LinkScroll></span></li>)}
+                                        {location.pathname.includes('projetos') ? (<li><span><Link onClick={handleOnClick} to='/'>Projetos</Link></span></li>) : (<li><span><LinkScroll  onClick={handleOnClick}activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projetos</LinkScroll></span></li>)}
 
 
                                         {location.pathname.includes('projetos') ? (
-                                        <li><span><Link to='/'>Contato</Link></span></li>) : (
+                                        <li><span><Link onClick={handleOnClick} to='/'>Contato</Link></span></li>) : (
                                         <li><span><LinkScroll onClick={handleOnClick} activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contato</LinkScroll></span></li>)}
 
                                     </ul>

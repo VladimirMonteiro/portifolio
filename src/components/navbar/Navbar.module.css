@@ -114,6 +114,7 @@ span:hover::before {
 
   .menu_mobile {
     display: inline-block;
+    z-index: 3;
     
   }
   

@@ -2,7 +2,7 @@
     
     min-width: 390px;
     height: 250px;
-    margin: 1.5em;
+    margin: 50px 30px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -10,9 +10,9 @@
 }
 .project_card_false{
     background-color: white;
-    min-width: 390px;
-    height: 280px;
-    margin: 1.5em;
+    min-width: 370px;
+    height: 300px;
+    margin: 50px 30px;
     border-radius: 10px;
     display: flex;
     justify-content: center;

@@ -11,8 +11,8 @@ const Projects = ()=> {
 
         <section id="projects"className={styles.container}>
             <div className={styles.header_projects}>
-                <h2>Projects</h2>
-                <p>projects carried out</p>
+                <h2>Projetos</h2>
+                <p>Projetos realizados</p>
             </div>
             <div className={styles.projects_container}>
                 <ProjectCard done={true} image ={upLocaçoes} projectName='Up_Locacoes'/>

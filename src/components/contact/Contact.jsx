@@ -61,7 +61,7 @@ const Contact = ()=> {
     return(
         <section id="contact"className={styles.contact_container}>
             <div className={styles.form_container}>
-            <h1><span>Send Message Us</span></h1>
+            <h1><span>Envie sua mensagem</span></h1>
                 
                 <form onSubmit={handleSubmit}>
                     <div>
