@@ -25,9 +25,9 @@ const Home = () => {
             <ContainerOne />
             <About />
             <Technologies />
-            <BackgroundImage image={background} width='100%' minHeight='250px' />
+            <BackgroundImage image={background} width='100%' height='250px' color='#2072c983' />
             <Projects />
-            <BackgroundImage image={background02} width='100%' minHeight='650px'>
+            <BackgroundImage image={background02} width='100%' height='650px' color='#2072c983'>
                 <Contact />
             </BackgroundImage>
            

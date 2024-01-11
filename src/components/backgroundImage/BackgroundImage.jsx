@@ -2,13 +2,13 @@ import style from './BackgroundImage.module.css'
 
 
 
-const backgroundImage = ({image, width, minHeight, children})=> {
+const BackgroundImage = ({image, width, height, color, children})=> {
     return(
 
     
             
-                <div className={style.image_container} style={{backgroundImage: `url(${image})`, width: `${width}`, minHeight: `${minHeight}`}}>
-                    <div className={style.overlay} style={{width: `${width}`, minHeight: `${minHeight}`}}>
+                <div className={style.image_container} style={{backgroundImage: `url(${image})`, width: `${width}`, minHeight: `${height}`}}>
+                    <div className={style.overlay} style={{width: `${width}`, minHeight: `${height}`, backgroundColor: `${color}`}}>
                         {children}
 
                     </div>
@@ -19,4 +19,4 @@ const backgroundImage = ({image, width, minHeight, children})=> {
     )
 }
 
-export default backgroundImage
+export default BackgroundImage

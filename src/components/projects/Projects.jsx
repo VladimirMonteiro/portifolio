@@ -15,7 +15,7 @@ const Projects = ()=> {
                 <p>projects carried out</p>
             </div>
             <div className={styles.projects_container}>
-                <ProjectCard done={true} image ={upLocaçoes} projectName='up_locacoes'/>
+                <ProjectCard done={true} image ={upLocaçoes} projectName='Up_Locacoes'/>
                 <ProjectCard done={false}/>
                 <ProjectCard done={false}/>
             </div>
