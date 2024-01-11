@@ -38,16 +38,16 @@ const Navbar = () => {
                     <Link to='/' >Home</Link>
                     </span></li>) : (<li><span><LinkScroll activeClass="active" to="container_01" spy={true} smooth={true} offset={-70} duration={500}>Home</LinkScroll></span></li>)}
 
-                    {location.pathname.includes('projetos') ? (<li><span><Link to='/'>About</Link></span></li>) : (<li><span><LinkScroll activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>About</LinkScroll></span></li>)}
+                    {location.pathname.includes('projetos') ? (<li><span><Link to='/'>Sobre</Link></span></li>) : (<li><span><LinkScroll activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>Sobre</LinkScroll></span></li>)}
 
-                    {location.pathname.includes('projetos') ? (<li><span><Link to='/'>technologies</Link></span></li>) : (<li><span><LinkScroll activeClass="active" to="technologies" spy={true} smooth={true} offset={-70} duration={500}>technologies</LinkScroll></span></li>)}
+                    {location.pathname.includes('projetos') ? (<li><span><Link to='/'>Tecnologias</Link></span></li>) : (<li><span><LinkScroll activeClass="active" to="technologies" spy={true} smooth={true} offset={-70} duration={500}>Tecnologias</LinkScroll></span></li>)}
 
-                    {location.pathname.includes('projetos') ? (<li><span><Link to='/'>Projects</Link></span></li>) : (<li><span><LinkScroll activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</LinkScroll></span></li>)}
+                    {location.pathname.includes('projetos') ? (<li><span><Link to='/'>Projetos</Link></span></li>) : (<li><span><LinkScroll activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projetos</LinkScroll></span></li>)}
 
 
                     {location.pathname.includes('projetos') ? (
                     <li><span><Link to='/'>Contact</Link></span></li>) : (
-                    <li><span><LinkScroll activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact</LinkScroll></span></li>)}
+                    <li><span><LinkScroll activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contato</LinkScroll></span></li>)}
 
                 </ul>
             </nav>
@@ -66,16 +66,16 @@ const Navbar = () => {
                                         <Link to='/' >Home</Link>
                                         </span></li>) : (<li><span><LinkScroll  onClick={handleOnClick} activeClass="active" to="container_01" spy={true} smooth={true} offset={-70} duration={500}>Home</LinkScroll></span></li>)}
 
-                                        {location.pathname.includes('projetos') ? (<li><span><Link to='/'>About</Link></span></li>) : (<li><span><LinkScroll  onClick={handleOnClick}activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>About</LinkScroll></span></li>)}
+                                        {location.pathname.includes('projetos') ? (<li><span><Link to='/'>Sobre</Link></span></li>) : (<li><span><LinkScroll  onClick={handleOnClick}activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>Sobre</LinkScroll></span></li>)}
 
-                                        {location.pathname.includes('projetos') ? (<li><span><Link to='/'>technologies</Link></span></li>) : (<li><span><LinkScroll onClick={handleOnClick}activeClass="active" to="technologies" spy={true} smooth={true} offset={-70} duration={500}>technologies</LinkScroll></span></li>)}
+                                        {location.pathname.includes('projetos') ? (<li><span><Link to='/'>Tecnologias</Link></span></li>) : (<li><span><LinkScroll onClick={handleOnClick}activeClass="active" to="technologies" spy={true} smooth={true} offset={-70} duration={500}>Tecnologias</LinkScroll></span></li>)}
 
-                                        {location.pathname.includes('projetos') ? (<li><span><Link to='/'>Projects</Link></span></li>) : (<li><span><LinkScroll  onClick={handleOnClick}activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</LinkScroll></span></li>)}
+                                        {location.pathname.includes('projetos') ? (<li><span><Link to='/'>Projetos</Link></span></li>) : (<li><span><LinkScroll  onClick={handleOnClick}activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projetos</LinkScroll></span></li>)}
 
 
                                         {location.pathname.includes('projetos') ? (
-                                        <li><span><Link to='/'>Contact</Link></span></li>) : (
-                                        <li><span><LinkScroll onClick={handleOnClick} activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact</LinkScroll></span></li>)}
+                                        <li><span><Link to='/'>Contato</Link></span></li>) : (
+                                        <li><span><LinkScroll onClick={handleOnClick} activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contato</LinkScroll></span></li>)}
 
                                     </ul>
                                 </nav>

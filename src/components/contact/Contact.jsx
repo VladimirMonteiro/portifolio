@@ -66,21 +66,21 @@ const Contact = ()=> {
                 <form onSubmit={handleSubmit}>
                     <div>
                         {error.name && <p className={styles.error_input}>{error.name}</p>}
-                        <input type="text" name="name" id="name" placeholder='Your name'  onChange={handleChange} value={contact.name}/>
+                        <input type="text" name="name" id="name" placeholder='Nome...'  onChange={handleChange} value={contact.name}/>
                         
                     </div>
                     <div>
                         {error.email && <p className={styles.error_input}>{error.email}</p>}
-                        <input type="email" name="email" id="email" placeholder='Your e-mail' onChange={handleChange} value={contact.email}/>
+                        <input type="email" name="email" id="email" placeholder='E-mail...' onChange={handleChange} value={contact.email}/>
                       
                     </div>
                     <div>
                         {error.subject && <p className={styles.error_input}>{error.subject}</p>}
-                        <input type="text" name="subject" id="subject" placeholder='Subject' onChange={handleChange} value={contact.subject} />
+                        <input type="text" name="subject" id="subject" placeholder='Assunto...' onChange={handleChange} value={contact.subject} />
                        
                     </div>
                     {error.description && <p className={styles.error_input}>{error.description}</p>}
-                    <textarea name="description" id="" cols="30" rows="10" placeholder='Message' onChange={handleChange} value={contact.description}>
+                    <textarea name="description" id="" cols="30" rows="10" placeholder='Mensagem' onChange={handleChange} value={contact.description}>
 
                     </textarea>
                 

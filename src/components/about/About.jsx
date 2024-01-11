@@ -39,8 +39,8 @@ const About = ()=> {
 
                 </div>
                 <div className={styles.about_text}>
-                    <h2><span>About me</span></h2>
-                    <p>Since I became interested in programming, I study daily to get my first opportunity. For 8 months I have been developing several projects to put all my knowledge into practice and I am sure that I am ready to join your team of programmers. I have ease of learning, good communication and at all times I try to improve more and more</p>
+                    <h2><span>Sobre mim</span></h2>
+                    <p>Desde que me interessei por programação, estudo diariamente para conseguir minha primeira oportunidade. Há 8 meses venho desenvolvendo diversos projetos para colocar em prática todo meu conhecimento e tenho certeza que estou pronto para integrar seu time de programadores. Tenho facilidade de aprendizado, boa comunicação e a todo momento procuro melhorar cada vez mais</p>
 
                 </div>
 
