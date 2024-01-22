@@ -5,6 +5,7 @@ import ProjectCard from '../projectCard/ProjectCard'
 //images
 
 import upLocaçoes from '../../assets/teste3.png'
+import reactGram from '../../assets/reactGram.png'
 
 const Projects = ()=> {
     return(
@@ -15,8 +16,8 @@ const Projects = ()=> {
                 <p>Projetos realizados</p>
             </div>
             <div className={styles.projects_container}>
-                <ProjectCard done={true} image ={upLocaçoes} projectName='Up_Locacoes'/>
-                <ProjectCard done={false}/>
+                <ProjectCard done={true} image ={upLocaçoes} projectName='Up-Locacoes'/>
+                <ProjectCard done={true} image={reactGram} projectName='ReactGram'/>
                 <ProjectCard done={false}/>
             </div>
 

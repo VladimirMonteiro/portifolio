@@ -16,7 +16,7 @@ const ProjectCard = ({image, projectName, done}) => {
 
             ) : (
                 <div>
-                    <span>shortly...</span>
+                    <span>Em breve...</span>
                 </div>
             )}
 

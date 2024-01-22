@@ -40,7 +40,7 @@ const About = ()=> {
                 </div>
                 <div className={styles.about_text}>
                     <h2><span>Sobre mim</span></h2>
-                    <p>Desde que me interessei por programação, estudo diariamente para conseguir minha primeira oportunidade. Há 8 meses venho desenvolvendo diversos projetos para colocar em prática todo meu conhecimento e tenho certeza que estou pronto para integrar seu time de programadores. Tenho facilidade de aprendizado, boa comunicação e a todo momento procuro melhorar cada vez mais</p>
+                    <p>Desde que me interessei por programação, estudo diariamente para aperfeiçoar minhas. Há 8 meses venho desenvolvendo diversos projetos para colocar em prática todo meu conhecimento e tenho certeza que estou pronto para integrar seu time de programadores. Tenho facilidade de aprendizado, boa comunicação e a todo momento procuro melhorar cada vez mais</p>
 
                 </div>
 

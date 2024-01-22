@@ -8,7 +8,8 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 //pages
 import Home from '../pages/home/Home.jsx'
-import ProjectsPages from '../pages/projectsPage/ProjectsPage.jsx'
+import UpLocacoes from '../pages/projectsPage/UpLocacoes.jsx'
+import ReactGram from '../pages/projectsPage/ReactGram.jsx'
 
 
 
@@ -23,8 +24,12 @@ const router = createBrowserRouter ([{
     },
   
     {
-      path: '/projetos/:name',
-      element: <ProjectsPages/>
+      path: '/projetos/Up-Locacoes',
+      element: <UpLocacoes/>
+    },
+    {
+      path: '/projetos/ReactGram',
+      element: <ReactGram/>
     }
   ]
 }])

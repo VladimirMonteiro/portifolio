@@ -3,7 +3,9 @@ import ambiente from '../../src/assets/teste22.jpeg'
 import BackgroundImage from '../../src/components/backgroundImage/BackgroundImage'
 import up_locaçoes from '../../src/assets/teste3.png'
 
-import {useLocation} from 'react-router-dom'
+
+
+//Components
 
 
 
@@ -11,12 +13,9 @@ import {useLocation} from 'react-router-dom'
 
 
 
-const ProjectsPage = ()=> {
+const UpLocacoes = ()=> {
 
-    const location = useLocation()
-
-    const nameProject = location.pathname.split('/').pop().replace('_',' ')
-    console.log(nameProject)
+   
 
     return(
         <section className={styles.container}>
@@ -24,7 +23,7 @@ const ProjectsPage = ()=> {
                 <BackgroundImage image={ambiente} width='100%' height='250px' color='rgba(0, 0, 0, 0.356)' />
             <div className={styles.description}>
                 
-                <h2>{nameProject}</h2>
+                <h2>Up Locações</h2>
 
                 <p>O projeto Up Locações foi elaborado com afinidade de aprimorar a conexão entre a empresa Up Locações e seu público. Cada elemento, desde o design até a navegação intuitiva, foi criado com a intenção de oferecer uma experiência envolvente aos visitantes, fortalecendo assim a relação entre a marca/indivíduo e seu público-alvo. Com seções intuitivas e uma arquitetura de informação lógica, este site é uma fonte valiosa de informações sobre a empresa. Os visitantes podem explorar facilmente produtos e serviços, obtendo uma visão abrangente do que torna Up Locações excepcional.</p>
 
@@ -42,7 +41,7 @@ const ProjectsPage = ()=> {
                 <p style={{margin: '10px 0', fontWeight: 'bold'}}>link para o site <a href="https://up-locations.vercel.app/" target='_blank'>https://up-locations.vercel.app/</a></p>
             </div>
             <div className={styles.image_project}>
-                <img src={up_locaçoes} alt={nameProject} />
+                <img src={up_locaçoes} alt={'Up-Locaçoes'} />
 
             </div>
             
@@ -51,4 +50,4 @@ const ProjectsPage = ()=> {
 }
 
 
-export default ProjectsPage
+export default UpLocacoes
