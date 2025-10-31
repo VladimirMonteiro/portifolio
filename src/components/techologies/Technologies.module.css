@@ -56,6 +56,27 @@
     transform: scale(1.1);
 }
 
+.fade_section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade_section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* apenas para dar suavidade aos cards */
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
 @media screen and (max-width: 938px) {
     
     .card_container{

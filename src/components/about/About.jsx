@@ -40,8 +40,7 @@ const About = ()=> {
                 </div>
                 <div className={styles.about_text}>
                     <h2><span>Sobre mim</span></h2>
-                    <p>Desde que me interessei por programação, estudo diariamente para aperfeiçoar minhas. Há 8 meses venho desenvolvendo diversos projetos para colocar em prática todo meu conhecimento e tenho certeza que estou pronto para integrar seu time de programadores. Tenho facilidade de aprendizado, boa comunicação e a todo momento procuro melhorar cada vez mais</p>
-
+                    <p>Sou desenvolvedor de software atualmente cursando 5° semestre de análise e desenvolvimento de sistemas, possuo cursos e habilidades em Javascript, React, Nodejs. Java. Possuo experiência tanto no front end como no backend desenvolvendo API rest com Java Spring Boot e nodeJS. Atualmente estou estudando e aperfeiçoando minhas habilidades afim de entregar softwares confiáveis e performáticos.</p>
                 </div>
 
             </div>
